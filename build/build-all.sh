@@ -39,7 +39,7 @@ for i in \
 	udev \
 	lcms \
 	libmng \
-	qt \
+	qt-4.8 \
 ; do
 	if echo "${SKIP:-}" | grep -q \\\<"$i"\\\> ; then
 		echo "Building of $i suppressed by \$SKIP"
